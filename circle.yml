@@ -21,16 +21,16 @@ dependencies:
 
   pre:
 
-	# Install gulp
-	- echo "Installing gulp globally\n"
-	- npm install -g gulp
+    # Install gulp
+    - echo "Installing gulp globally\n"
+    - npm install -g gulp
 
     # Install Terminus
     - ./bin/install_terminus.sh
 
   override:
-	- ./bin/auto-update.sh
+    - ./bin/auto-update.sh
 
 test:
   override:
-	- ls
+    - ls
