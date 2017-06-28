@@ -3,7 +3,7 @@ machine:
     America/New_York
 
   php:
-    version: 7.*
+    version: 7.0.4
 
   environment:
     PATH: "${PATH}:${HOME}/terminus/bin
