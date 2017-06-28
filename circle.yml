@@ -1,0 +1,22 @@
+machine:
+  timezone:
+    America/New_York
+
+  php:
+    version: 7.*
+
+  environment:
+    PATH: "${PATH}:${HOME}/terminus/bin
+
+
+dependencies:
+  cache_directories:
+    - ~/terminus
+
+  pre:
+
+
+    # Install Terminus
+    - ./bin/install_terminus.sh
+
+ 
